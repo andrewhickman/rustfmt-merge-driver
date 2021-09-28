@@ -1,10 +1,10 @@
 [package]
-name = "git-rustfmt-merge-driver"
-description = "git-rustfmt-merge-driver."
+name = "rustfmt-merge-driver"
+description = "rustfmt-merge-driver."
 version = "0.0.0"
 authors = ["Andrew Hickman <andrew.hickman1@sky.com>"]
-repository = "https://github.com/andrewhickman/git-rustfmt-merge-driver"
-documentation = "https://docs.rs/git-rustfmt-merge-driver"
+repository = "https://github.com/andrewhickman/rustfmt-merge-driver"
+documentation = "https://docs.rs/rustfmt-merge-driver"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 edition = "2018"
