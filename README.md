@@ -4,11 +4,17 @@ A [custom merge driver](https://git-scm.com/docs/gitattributes#_defining_a_custo
 
 ## Installation
 
+The application can be installed through cargo
+
+```
+cargo install --git https://github.com/andrewhickman/rustfmt-merge-driver
+```
+
 To configure the merge driver for a repository, add it to the config with
 
 ```
 git config merge.rust.name "rustfmt merge driver"
-git config merge.rust.driver "git-rustfmt-merge-driver %A %O %B --marker-size %L"
+git config merge.rust.driver "rustfmt-merge-driver %A %O %B --marker-size %L"
 ```
 
 and then tell git to merge `.rs` files with it by adding this line to your [`.gitattributes`](https://git-scm.com/docs/gitattributes) file
