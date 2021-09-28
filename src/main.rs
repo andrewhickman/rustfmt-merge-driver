@@ -3,7 +3,7 @@ use std::{
     process::{exit, Command},
 };
 
-use anyhow::{Result, bail, format_err};
+use anyhow::{bail, format_err, Result};
 use clap::{AppSettings, Clap};
 use which::which;
 
