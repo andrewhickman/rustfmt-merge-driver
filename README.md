@@ -11,7 +11,7 @@ git config merge.rust.name "rustfmt merge driver"
 git config merge.rust.driver "git-rustfmt-merge-driver %A %O %B --marker-size %L"
 ```
 
-and then tell git to merge `.rs` with it by adding this line to your [`.gitattributes`](https://git-scm.com/docs/gitattributes) file
+and then tell git to merge `.rs` files with it by adding this line to your [`.gitattributes`](https://git-scm.com/docs/gitattributes) file
 
 ```
 *.rs merge=rust
